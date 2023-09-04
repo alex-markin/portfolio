@@ -1,0 +1,35 @@
+.projectContainer {
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--main-gray);
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.projectImg {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+}
+
+.projectTitle {
+  height: 15%;
+  color: var(--main-white);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.projectsHoverElement {
+  opacity: 0;
+  color: orange;
+}
+
+.projectsHoverElementActive {
+  opacity: 1;
+  transition: 1s ease;
+}

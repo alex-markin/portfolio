@@ -1,0 +1,24 @@
+import styles from "./projects.module.css";
+import Project from "../project/Project";
+import { TributeProject } from "../../content/projects";
+
+const { projects, projectsTitle, projectsContainer } = styles;
+
+const src =
+  "https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg";
+
+export default function Projects() {
+  return (
+    <section className={projects}>
+      <h2 className={projectsTitle}>These are some of my projects</h2>
+      <div className={projectsContainer}>
+        <Project project={TributeProject} />
+        <Project project={TributeProject} />
+        <Project project={TributeProject} />
+        <Project project={TributeProject} />
+        <Project project={TributeProject} />
+        <Project project={TributeProject} />
+      </div>
+    </section>
+  );
+}

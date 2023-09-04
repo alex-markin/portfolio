@@ -1,0 +1,41 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbarList {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 70px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbarListMobile {
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.navbarListHidden {
+  display: none;
+}
+
+
+.navbarLink {
+  font-size: 24px;
+  align-self: center;
+  color: var(--main-white);
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    justify-content: center;
+  }
+
+}
