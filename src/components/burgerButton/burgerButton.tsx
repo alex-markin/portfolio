@@ -1,5 +1,6 @@
 import styles from './burgerButton.module.css';
-import { useState } from 'react';
+import { useDispatch, useSelector } from '../../services/hooks/redux-hooks';
+import { getMenuState } from '../../services/store/storeSelectors';
 
 type BurgerButtonProps = {
   onButtonClick: () => void;
@@ -7,17 +8,13 @@ type BurgerButtonProps = {
 
 function BurgerButton({ onButtonClick }: BurgerButtonProps) {
 
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const handleClick = () => {
-    setMenuOpen(!menuOpen);
-    onButtonClick();
-  }
+  const dispatch = useDispatch();
+  const menuOpen = useSelector(getMenuState).menuOpen;
 
   const menuOpenClass = !menuOpen ? styles.menuBtnElem : `${styles.menuBtnElem} ${styles.menyBtnElemActive}`;
 
   return (
-    <div className={styles.menuBtn} onClick={handleClick}>
+    <div className={styles.menuBtn} onClick={onButtonClick}>
       <span className={menuOpenClass}></span>
       <span className={menuOpenClass}></span>
       <span className={menuOpenClass}></span>

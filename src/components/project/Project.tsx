@@ -24,12 +24,11 @@ export default function Project({ project }: ProjectProps) {
     : `${projectsHoverElement}`;
 
   return (
-    <Link className={projectContainer} to="/">
+    <Link className={projectContainer} to="/"
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}>
       <img className={projectImg} src={image} alt={title} />
-      <h3
-        className={projectTitle}
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
+      <h3 className={projectTitle}
       >
         <span className={hoverElementClass}>{`< `}</span>
         {title}

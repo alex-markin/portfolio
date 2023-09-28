@@ -3,8 +3,10 @@
   background-color: var(--main-gray);
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   gap: 35px;
   padding: 5%;
+  padding-top: calc(5% + 67.5px);
   box-sizing: border-box;
   
 }
@@ -28,6 +30,7 @@
   height: 400px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: top;
 }
 
 .header {

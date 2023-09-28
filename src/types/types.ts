@@ -2,6 +2,9 @@
 export type Project = {
   title: string
   description: string
+  feautures: string[]
+  stack: string[]
   image: string
-  link: string
+  ghLink: string
+  previewLink: string
 }

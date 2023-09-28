@@ -5,13 +5,9 @@ import "./index.css";
 import App from "./components/app/App";
 import reportWebVitals from "./reportWebVitals";
 
-// import { configureStore } from '@reduxjs/toolkit';
-// import { Provider } from 'react-redux'
-// import { rootReducer } from './services/store/rootReducer';
+import { Provider } from 'react-redux'
+import { store } from './services/store/store'
 
-// const store = configureStore({
-//   reducer: rootReducer,
-// });
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -20,9 +16,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <HashRouter>
-      {/* <Provider store={store}> */}
-      <App />
-      {/* </Provider> */}
+      <Provider store={store}>
+        <App />
+      </Provider>
     </HashRouter>
   </React.StrictMode>
 );

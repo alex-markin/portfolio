@@ -1,41 +1,64 @@
 import exp from "constants";
 import styles from "./contacts.module.css";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { modalSlice } from "../../services/store/slices/modalSlice";
+import { useDispatch } from "../../services/hooks/redux-hooks";
+
 
 const {
   contacts,
   contactsTitle,
   contactsSubtitle,
-  contactLinks,
-  contactLink
+  contactsLinks,
+  contactLink,
+  contactsIcon,
+  contactName,
 } = styles;
 
+
 export default function Contacts() {
+
+  const dispatch = useDispatch();
+
+  const handleModalOpen = () => {
+    dispatch(modalSlice.actions.toggleModal());
+  };
+
   return (
-    <section className="contacts">
-      <h2 className="contacts__header">Let's work together...</h2>
-      <h5 className="contacts__subheader">How do you take your coffee?</h5>
-      <div className="contacts__links">
+    <section className={contacts}>
+      <h2 className={contactsTitle}>Contact me</h2>
+      <div className={contactsLinks}>
+        <Link
+          className={contactLink}
+          to="https://www.linkedin.com/in/a-markin/"
+          target="_blank"
+        >
+          <FontAwesomeIcon className={contactsIcon} icon={faLinkedin} />
+          <p className={contactName}>LinkedIn</p>
+        </Link>
 
-        <a href="https://www.facebook.com/alexander.markin.374/" className="contacts__link" target="_blank"
-          id="profile-link">
-          <i className="fa-brands fa-facebook"></i>
-          Facebook
-        </a>
+        <Link
+          className={contactLink}
+          to="https://github.com/alex-markin"
+          target="_blank"
+        >
+          <FontAwesomeIcon className={contactsIcon} icon={faGithub} />
+          <p className={contactName}>GitHub</p>
+        </Link>
 
-        <a href="https://github.com/alex-markin" target="_blank" className="contacts__link" id="profile-link">
-          <i className="fa-brands fa-github"></i>
-          GitHub
-        </a>
+        {/* сделать модалку на телефон и почту */}
+        <div className={contactLink} onClick={handleModalOpen}>
+          <FontAwesomeIcon className={contactsIcon} icon={faPhone} />
+          <p className={contactName}>Call me</p>
+        </div>
 
-        <a href="+79857925000" className="contacts__link" target="_blank" id="profile-link">
-          <i className="fa-solid fa-mobile-screen"></i>
-          Call me
-        </a>
-
-        <a href="m9857925000@gmail.com" className="contacts__link" target="_blank" id="profile-link">
-          <i className="fa-solid fa-square-envelope"></i>
-          Send me e-mail
-        </a>
+        <div className={contactLink} onClick={handleModalOpen}>
+          <FontAwesomeIcon className={contactsIcon} icon={faEnvelope} />
+          <p className={contactName}>Send me e-mail</p>
+        </div>
       </div>
     </section>
   );
