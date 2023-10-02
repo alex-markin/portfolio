@@ -1,6 +1,6 @@
 
 .contacts {
-  background-color: var(--main-gray);
+  background-color: var(--main-body);
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -12,14 +12,14 @@
 }
 
 .contactsTitle {
-  color: var(--main-white);
+  color: var(--main-text);
   font-size: 50px;
   text-align: center;
   margin: 0;
 }
 
 .contactsSubtitle {
-  color: var(--main-white);
+  color: var(--main-text);
   font-size: 24px;
   text-align: center;
   font-weight: 400;
@@ -36,7 +36,7 @@
 }
 
 .contactLink {
-  color: var(--main-white);
+  color: var(--main-text);
   text-decoration: none;
   text-shadow: 2px 2px 1px #1f1f1f;
   font-size: 28px;

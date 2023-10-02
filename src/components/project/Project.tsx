@@ -16,15 +16,20 @@ type ProjectProps = {
 };
 
 export default function Project({ project }: ProjectProps) {
-  const { title, image } = project;
+  const { title, images } = project;
   const [hover, setHover] = useState(false);
+
+  const image = images[0];
+
+  const id = title.toLowerCase().replace(/\s/g, "-");
+
 
   let hoverElementClass = hover
     ? `${projectsHoverElement} ${projectsHoverElementActive}`
     : `${projectsHoverElement}`;
 
   return (
-    <Link className={projectContainer} to="/"
+    <Link className={projectContainer} to={`/projects/${id}`}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}>
       <img className={projectImg} src={image} alt={title} />

@@ -11,7 +11,7 @@
 }
 
 .header {
-  color: var(--main-white);
+  color: var(--main-text);
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -35,13 +35,13 @@
 
 .contactType {
   width: 100px;
-  color: var(--main-white);
+  color: var(--main-text);
   font-size: 20px;
   margin: 0;
 }
 
 .contactValue {
-  color: var(--main-white);
+  color: var(--main-text);
   font-size: 20px;
   margin: 0;
   text-decoration: none;

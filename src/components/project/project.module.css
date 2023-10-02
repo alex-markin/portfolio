@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 400px;
   max-height: 350px;
-  background-color: var(--main-gray);
+  background-color: var(--main-body);
   display: flex;
   flex-direction: column;
   flex-direction: column;
@@ -22,7 +22,7 @@
 
 .projectTitle {
   height: 30px;
-  color: var(--main-white);
+  color: var(--main-text);
   font-size: 20px;
   text-align: center;
   padding: 5% 0;

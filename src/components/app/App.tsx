@@ -7,7 +7,12 @@ import { Router, Routes, Route } from 'react-router-dom';
 import Intro from "../../components/intro/Intro";
 import Projects from "../../components/projects/Projects";
 import Contacts from "../../components/contacts/Contacts";
+import Divider from "../../components/divider/divider";
+import Footer from "../../components/footer/footer";
 import { useState } from 'react';
+
+import ProjectPage from '../../pages/projectPage/projectPage';
+import { burgersProject } from '../../content/projects';
 
 
 export const ROUTES = {
@@ -20,24 +25,17 @@ export const ROUTES = {
 
 function App() {
 
-  // const [isModalOpen, setIsModalOpen] = useState(false);
-
-  // const handleModalOpen = () => {
-  //   setIsModalOpen(!isModalOpen);
-  // };
 
 
   return (
     <div className={styles.appContainer}>
       <AppHeader />
       <Routes>
-        <Route path={ROUTES.MAIN} element={<Main />} >
-          {/* <Route path={ROUTES.INTRO} element={<Intro />} />
-          <Route path={ROUTES.PROJECTS} element={<Projects />} />
-          <Route path={ROUTES.CONTACTS} element={<Contacts handleModalOpen={handleModalOpen} />} /> */}
-        </Route>
-        <Route path={ROUTES.PROJECT} element={<div>Project</div>} />
+        <Route path={ROUTES.MAIN} element={<Main />} />
+        <Route path={ROUTES.PROJECT} element={<ProjectPage />} />
       </Routes>
+      <Divider />
+      <Footer />
     </div>
 
   );

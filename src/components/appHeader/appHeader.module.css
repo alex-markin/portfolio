@@ -1,5 +1,5 @@
 .appHeader {
-  background-color: var(--main-red);
+  background-color: var(--main-emphasis);
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -7,4 +7,5 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  z-index: 2;
 }

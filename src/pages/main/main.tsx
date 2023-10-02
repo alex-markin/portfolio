@@ -1,10 +1,7 @@
-import React, { useState, useRef } from "react";
 import styles from "./main.module.css";
 import Intro from "../../components/intro/Intro";
 import Projects from "../../components/projects/Projects";
 import Contacts from "../../components/contacts/Contacts";
-import Divider from "../../components/divider/divider";
-import Footer from "../../components/footer/footer";
 import Modal from "../../components/modal/modal";
 import ModalContacts from "../../components/modalContacts/modalContacts";
 import { contacts } from "../../content/contacts";
@@ -13,7 +10,6 @@ import { getModalState } from "../../services/store/storeSelectors";
 import { useSelector, useDispatch } from "../../services/hooks/redux-hooks";
 
 function Main() {
-  // const [isModalOpen, setIsModalOpen] = useState(false);
 
   const dispatch = useDispatch();
   const isModalOpen = useSelector(getModalState).isOpen;
@@ -32,7 +28,7 @@ function Main() {
 
   return (
     <>
-      <div className="row ">
+      <section className={styles.page}>
         <div id='intro'>
           <Intro />
         </div>
@@ -42,9 +38,7 @@ function Main() {
         <div id='contacts'>
           <Contacts />
         </div>
-        <Divider />
-        <Footer />
-      </div>
+      </section>
       {modal}
     </>
   );

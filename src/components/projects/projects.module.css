@@ -1,13 +1,13 @@
 .projects {
   padding: 5% 5%;
-  background-color: var(--main-blue);
+  background-color: var(--secondary-body);
   width: 100%;
   box-sizing: border-box;
 }
 
 .projectsTitle {
   font-size: 40px;
-  color: var(--main-white);
+  color: var(--main-text);
   margin: 0;
   text-align: center;
   padding-bottom: 50px;
@@ -24,9 +24,9 @@
 
 
 .projects__show-all {
-  color: var(--main-white);
+  color: var(--main-text);
   width: 150px;
-  background-color: var(--main-gray);
+  background-color: var(--main-body);
   font-size: 20px;
   text-align: center;
   padding: 10px;
@@ -35,7 +35,7 @@
 }
 
 .projects__show-all:hover {
-  background-color: var(--main-red);
+  background-color: var(--main-emphasis);
   transition: 1s ease;
 }
 

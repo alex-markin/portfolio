@@ -1,6 +1,7 @@
 import { Project } from "../types/types";
 
-import burgerImg from "../img/burgerImg.png";
+import { stellarBurgersImages, mestoImages, bikesImages } from "../img/images";
+
 import bikesImg from "../img/bikesImg.png";
 import mestoImg from "../img/mestoImg.png";
 
@@ -24,7 +25,7 @@ export const burgersProject: Project = {
     "UUID",
     "Responsive Web Design",
   ],
-  image: burgerImg,
+  images: stellarBurgersImages,
   ghLink: "https://github.com/alex-markin/react-stellar-burger",
   previewLink: "https://alex-markin.github.io/react-stellar-burger/",
 };
@@ -41,7 +42,7 @@ export const bikesProject: Project = {
     "Theme switching",
   ],
   stack: ["HTML, CSS", "JavaScript", "Figma", "BEM", "VSCode"],
-  image: bikesImg,
+  images: bikesImages,
   ghLink: "https://github.com/alex-markin/bike-landing",
   previewLink: "https://alex-markin.github.io/bike-landing/",
 };
@@ -63,7 +64,9 @@ export const mestoProject: Project = {
     "Webpack",
     "API (server integration)",
   ],
-  image: mestoImg,
+  images: mestoImages,
   ghLink: "https://github.com/alex-markin/mesto-project",
   previewLink: "https://alex-markin.github.io/mesto-project/",
 };
+
+export const projects = [burgersProject, bikesProject, mestoProject];
