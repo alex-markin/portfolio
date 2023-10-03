@@ -2,9 +2,6 @@ import { Project } from "../types/types";
 
 import { stellarBurgersImages, mestoImages, bikesImages } from "../img/images";
 
-import bikesImg from "../img/bikesImg.png";
-import mestoImg from "../img/mestoImg.png";
-
 export const burgersProject: Project = {
   title: "Space Burgers",
   description:
@@ -12,11 +9,11 @@ export const burgersProject: Project = {
   feautures: [
     "Backend integration through API and WebSocket connections.",
     "User authorization functionality with protected routing.",
-    "User account page enabling users to modify their details and log out securely.",
+    "User account page for changing user's details and log out securely.",
     "Interactive burger construction feature that allows users to customize their burgers by dragging and dropping ingredients into the constructor section.",
-    "Intuitive ingredient reordering by dragging and dropping them over each other.",
+    "Ingredient reordering by dragging and dropping them over each other.",
     "Order placement functionality, with orders displayed on the Orders page and the users personal profile.",
-    "Implementation of modal windows to provide additional details for both orders and ingredients.",
+    "Modal windows provide additional details for both orders and ingredients.",
   ],
   stack: [
     "JavaScript & TypeScript",

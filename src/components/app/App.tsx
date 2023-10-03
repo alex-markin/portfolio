@@ -1,18 +1,14 @@
-import styles from './app.module.css';
-import React from 'react';
-import Main from '../../pages/main/main';
-import AppHeader from '../appHeader/appHeader';
-import { Router, Routes, Route } from 'react-router-dom';
+// libraries
+import { Routes, Route } from 'react-router-dom';
 
-import Intro from "../../components/intro/Intro";
-import Projects from "../../components/projects/Projects";
-import Contacts from "../../components/contacts/Contacts";
+// styles, pages & components
+import styles from './app.module.css';
+import AppHeader from '../appHeader/appHeader';
+import Main from '../../pages/main/main';
 import Divider from "../../components/divider/divider";
 import Footer from "../../components/footer/footer";
-import { useState } from 'react';
-
 import ProjectPage from '../../pages/projectPage/projectPage';
-import { burgersProject } from '../../content/projects';
+
 
 
 export const ROUTES = {
@@ -23,10 +19,8 @@ export const ROUTES = {
   CONTACTS: '/contacts',
 };
 
+
 function App() {
-
-
-
   return (
     <div className={styles.appContainer}>
       <AppHeader />
@@ -37,7 +31,6 @@ function App() {
       <Divider />
       <Footer />
     </div>
-
   );
 }
 

@@ -1,10 +1,14 @@
+// libraries
 import React from "react";
 import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
+
+// styles & components
 import "./index.css";
 import App from "./components/app/App";
-import reportWebVitals from "./reportWebVitals";
 
+// states & store
 import { Provider } from 'react-redux'
 import { store } from './services/store/store'
 

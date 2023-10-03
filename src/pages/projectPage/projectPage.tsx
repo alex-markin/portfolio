@@ -1,12 +1,21 @@
 
-import styles from "./projectPage.module.css";
+// libraries
 import { Link } from "react-router-dom";
-import { Project as ProjectType } from "../../types/types";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { projects } from "../../content/projects";
+
+// styles & components
+import styles from "./projectPage.module.css";
 import Divider from "../../components/divider/divider";
 import Slider from "../../components/slider/slider";
-import { useEffect } from "react";
+
+// types
+import { Project as ProjectType } from "../../types/types";
+
+// content
+import { projects } from "../../content/projects";
+
+
 
 
 export default function ProjectPage() {
@@ -41,6 +50,7 @@ export default function ProjectPage() {
       </div>
 
       <div className={styles.imageContainer}>
+        <h2 className={styles.imageTitle}>Screenshots</h2>
         <Slider images={images} />
       </div>
 

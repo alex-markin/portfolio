@@ -1,3 +1,5 @@
+
+// stellar burgers project
 import sbImg1 from "./stellarBurgers/sbImg1.png";
 import sbImg2 from "./stellarBurgers/sbImg2.png";
 import sbImg3 from "./stellarBurgers/sbImg3.png";
@@ -5,11 +7,14 @@ import sbImg4 from "./stellarBurgers/sbImg4.png";
 import sbImg5 from "./stellarBurgers/sbImg5.png";
 import sbImg6 from "./stellarBurgers/sbImg6.png";
 
+// mesto project
 import mestoImg1 from "./mesto/mestoImg1.png";
 import mestoImg2 from "./mesto/mestoImg2.png";
 import mestoImg3 from "./mesto/mestoImg3.png";
 import mestoImg4 from "./mesto/mestoImg4.png";
 
+
+// bikes project
 import bikesImg1 from "./bikes/bikesImg1.png";
 import bikesImg2 from "./bikes/bikesImg2.png";
 import bikesImg3 from "./bikes/bikesImg3.png";

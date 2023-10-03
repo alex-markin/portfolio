@@ -1,4 +1,3 @@
-import exp from "constants";
 import styles from "./contacts.module.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,7 +10,6 @@ import { useDispatch } from "../../services/hooks/redux-hooks";
 const {
   contacts,
   contactsTitle,
-  contactsSubtitle,
   contactsLinks,
   contactLink,
   contactsIcon,

@@ -4,9 +4,6 @@ import { burgersProject, bikesProject, mestoProject } from "../../content/projec
 
 const { projects, projectsTitle, projectsContainer } = styles;
 
-const src =
-  "https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg";
-
 export default function Projects() {
   return (
     <section className={projects}>
