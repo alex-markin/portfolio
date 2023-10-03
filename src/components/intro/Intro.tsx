@@ -8,7 +8,7 @@ function Intro() {
       <div className={styles.introTextContainer}>
         <div className={styles.introText}>
           <h1 className={styles.header}>Hey I am Alex</h1>
-          <h2 className={styles.subheader}>a web developer</h2>
+          <h2 className={styles.subheader}>A front-end developer in Canada</h2>
         </div>
       </div>
       <img src={avatar} className={styles.introPhoto} alt='avatar' />

@@ -55,7 +55,7 @@ function Navbar() {
     <>
       <nav className={styles.navbar}>
         <ul className={menuOpen || screenWidth > 768 ? navbarListStyle : styles.navbarListHidden} >
-          <Link to="/" className={styles.navbarLink} onClick={() => scrollToSection('intro')}>About</Link>
+          <Link to="/" className={styles.navbarLink} onClick={() => scrollToSection('about')}>About</Link>
           <Link to="/" className={styles.navbarLink} onClick={() => scrollToSection('projects')}>Projects</Link>
           <Link to="/" className={styles.navbarLink} onClick={() => scrollToSection('contacts')}>Contacts</Link>
         </ul>

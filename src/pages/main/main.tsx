@@ -1,10 +1,12 @@
 // styles & components
 import styles from "./main.module.css";
 import Intro from "../../components/intro/Intro";
+import About from "../../components/about/about";
 import Projects from "../../components/projects/Projects";
 import Contacts from "../../components/contacts/Contacts";
 import Modal from "../../components/modal/modal";
 import ModalContacts from "../../components/modalContacts/modalContacts";
+import Divider from "../../components/divider/divider";
 
 // content
 import { contacts } from "../../content/contacts";
@@ -37,6 +39,10 @@ function Main() {
       <section className={styles.page}>
         <div id='intro'>
           <Intro />
+        </div>
+        <Divider />
+        <div id='about'>
+          <About />
         </div>
         <div id='projects'>
           <Projects />

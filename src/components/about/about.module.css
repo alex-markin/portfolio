@@ -1,0 +1,47 @@
+.aboutContainer {
+  width: 100%;
+  background-color: var(--main-body);
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 5%;
+  box-sizing: border-box;
+  color: var(--main-text);
+}
+
+.header {
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+.aboutTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.aboutText {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+}
+
+.subheader {
+  font-size: 24px;
+  margin: 0;
+  text-align: left;
+}
+
+.list {
+  margin: 0;
+  padding: 10px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
