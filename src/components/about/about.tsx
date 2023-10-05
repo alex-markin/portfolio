@@ -13,7 +13,7 @@ export default function About() {
       </div>
 
       <div className={styles.aboutTextContainer}>
-        <h2 className={styles.header}>My current stack</h2>
+        <h2 className={styles.stackheader}>My current stack</h2>
         <h3 className={styles.subheader}>Languages:</h3>
         <ul className={styles.list}>
           <li className={styles.listItem}>JavaScript & TypeScript</li>

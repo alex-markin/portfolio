@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+.stackheader {
+  composes: header;
+  font-size: 36px;
+}
+
 .aboutTextContainer {
   display: flex;
   flex-direction: column;

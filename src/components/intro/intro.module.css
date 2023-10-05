@@ -61,4 +61,8 @@
     height: 300px;
     border-radius: 50%;
   }
+
+  .subheader {
+    text-align: center;
+  }
 }

@@ -40,12 +40,11 @@ function Navbar() {
   }
 
   const scrollToSection = (sectionId: string) => {
+    dispatch(burgerMenuSlice.actions.closeMenu());
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
-      screenWidth <= 768 && dispatch(burgerMenuSlice.actions.closeMenu());
     }
-
   };
 
   const navbarListStyle = screenWidth <= 768 ? `${styles.navbarList} ${styles.navbarListMobile}` : styles.navbarList;
