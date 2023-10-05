@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2745cfe2.css",
-    "main.js": "/portfolio/static/js/main.3f7c4c70.js",
+    "main.css": "/portfolio/static/css/main.0fe708f1.css",
+    "main.js": "/portfolio/static/js/main.e24d165e.js",
     "static/js/787.79c02c71.chunk.js": "/portfolio/static/js/787.79c02c71.chunk.js",
     "static/media/mestoImg2.png": "/portfolio/static/media/mestoImg2.9fa71b50ea9aaf2c99b6.png",
     "static/media/bikesImg1.png": "/portfolio/static/media/bikesImg1.7096f97f2324b9ac84e9.png",
@@ -23,12 +23,12 @@
     "static/media/close-button.svg": "/portfolio/static/media/close-button.c4c517b0a1656e7eaaae.svg",
     "static/media/arrow-right.svg": "/portfolio/static/media/arrow-right.f4531088de9b162e1281.svg",
     "static/media/arrow-left.svg": "/portfolio/static/media/arrow-left.a2e49cd1f9028e354176.svg",
-    "main.2745cfe2.css.map": "/portfolio/static/css/main.2745cfe2.css.map",
-    "main.3f7c4c70.js.map": "/portfolio/static/js/main.3f7c4c70.js.map",
+    "main.0fe708f1.css.map": "/portfolio/static/css/main.0fe708f1.css.map",
+    "main.e24d165e.js.map": "/portfolio/static/js/main.e24d165e.js.map",
     "787.79c02c71.chunk.js.map": "/portfolio/static/js/787.79c02c71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2745cfe2.css",
-    "static/js/main.3f7c4c70.js"
+    "static/css/main.0fe708f1.css",
+    "static/js/main.e24d165e.js"
   ]
 }
