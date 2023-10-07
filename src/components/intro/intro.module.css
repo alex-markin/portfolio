@@ -46,6 +46,7 @@
   color: var(--main-emphasis);
   font-style: italic;
   font-size: 28px;
+  font-weight: 600;
   margin: 0;
 }
 

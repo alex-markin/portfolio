@@ -29,6 +29,7 @@
 
 .aboutText {
   font-size: 18px;
+  font-weight: 400;
   text-align: justify;
   line-height: 150%;
   margin: 0;
@@ -48,5 +49,10 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.listItem {
+  font-size: 18px;
+  font-weight: 500;
 }
 
