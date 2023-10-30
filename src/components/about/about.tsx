@@ -6,9 +6,9 @@ export default function About() {
     <section className={styles.aboutContainer}>
       <h2 className={styles.header}>About me</h2>
       <div className={styles.aboutTextContainer}>
-        <p className={styles.aboutText}>I'm a Front-End Software Engineer with an Open Work permit in Canada. I do really enjoy building out user-friendly efficient websites and applications.
+        <p className={styles.aboutText}>I'm a Front-End Software Engineer. I do really enjoy building out user-friendly efficient websites and applications.
         </p>
-        <p className={styles.aboutText}>I have 1 year of experience crafting web applications in JavaScript and modern frameworks and libs including React and Redux.</p>
+        <p className={styles.aboutText}>I have 1 year of experience crafting web applications with JavaScript and modern frameworks and libs including React and Redux.</p>
         <p className={styles.aboutText}>My previous 5-year professional background is in Commercial Real Estate where I acquired extensive hands-on experience in effective negotiations, collaborative teamwork, and high-stakes project management. It also gave me a comprehensive understanding of the Real Estate industry.</p>
       </div>
 
