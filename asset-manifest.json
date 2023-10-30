@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.50176c53.css",
-    "main.js": "/portfolio/static/js/main.fb69388e.js",
+    "main.js": "/portfolio/static/js/main.45ef4a65.js",
     "static/js/787.79c02c71.chunk.js": "/portfolio/static/js/787.79c02c71.chunk.js",
     "static/media/mestoImg2.png": "/portfolio/static/media/mestoImg2.9fa71b50ea9aaf2c99b6.png",
     "static/media/bikesImg1.png": "/portfolio/static/media/bikesImg1.7096f97f2324b9ac84e9.png",
@@ -59,11 +59,11 @@
     "static/media/arrow-right.svg": "/portfolio/static/media/arrow-right.f4531088de9b162e1281.svg",
     "static/media/arrow-left.svg": "/portfolio/static/media/arrow-left.a2e49cd1f9028e354176.svg",
     "main.50176c53.css.map": "/portfolio/static/css/main.50176c53.css.map",
-    "main.fb69388e.js.map": "/portfolio/static/js/main.fb69388e.js.map",
+    "main.45ef4a65.js.map": "/portfolio/static/js/main.45ef4a65.js.map",
     "787.79c02c71.chunk.js.map": "/portfolio/static/js/787.79c02c71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50176c53.css",
-    "static/js/main.fb69388e.js"
+    "static/js/main.45ef4a65.js"
   ]
 }
