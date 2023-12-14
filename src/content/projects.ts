@@ -1,6 +1,6 @@
 import { Project } from "../types/types";
 
-import { stellarBurgersImages, mestoImages, bikesImages } from "../img/images";
+import { stellarBurgersImages, mestoImages, bikesImages, algososhImages } from "../img/images";
 
 export const burgersProject: Project = {
   title: "Space Burgers",
@@ -66,4 +66,24 @@ export const mestoProject: Project = {
   previewLink: "https://alex-markin.github.io/mesto-project/",
 };
 
-export const projects = [burgersProject, bikesProject, mestoProject];
+export const algososhProject: Project = {
+  title: "MBOU Algososh Project",
+  description:
+    "This study project showcases a combination of skills in algorithms, React, and JavaScript.",
+  feautures: [
+    "Solving typical algorithms tasks like string and array manipulation, sorting, and fibonacci function.",
+    "Rendering the results and process of the algorithms with animation",
+    "Testing the algorithms with Jest and animation with Cypress",
+  ],
+  stack: [
+    "JS Algorithms",
+    "React 18",
+    "Jest",
+    "Cypress",
+  ],
+  images: algososhImages,
+  ghLink: "https://alex-markin.github.io/mbou_algososh/#/",
+  previewLink: "https://github.com/alex-markin/mbou_algososh",
+};
+
+export const projects = [burgersProject, bikesProject, mestoProject, algososhProject];

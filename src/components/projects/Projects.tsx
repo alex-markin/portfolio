@@ -1,6 +1,6 @@
 import styles from "./projects.module.css";
 import Project from "../project/Project";
-import { burgersProject, bikesProject, mestoProject } from "../../content/projects";
+import { burgersProject, bikesProject, mestoProject, algososhProject } from "../../content/projects";
 
 const { projects, projectsTitle, projectsContainer } = styles;
 
@@ -12,6 +12,7 @@ export default function Projects() {
         <Project project={burgersProject} />
         <Project project={bikesProject} />
         <Project project={mestoProject} />
+        <Project project={algososhProject} />
 
 
       </div>

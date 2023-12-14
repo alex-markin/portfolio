@@ -1,4 +1,3 @@
-
 // stellar burgers project
 import sbImg1 from "./stellarBurgers/sbImg1.png";
 import sbImg2 from "./stellarBurgers/sbImg2.png";
@@ -13,13 +12,21 @@ import mestoImg2 from "./mesto/mestoImg2.png";
 import mestoImg3 from "./mesto/mestoImg3.png";
 import mestoImg4 from "./mesto/mestoImg4.png";
 
-
 // bikes project
 import bikesImg1 from "./bikes/bikesImg1.png";
 import bikesImg2 from "./bikes/bikesImg2.png";
 import bikesImg3 from "./bikes/bikesImg3.png";
 import bikesImg4 from "./bikes/bikesImg4.png";
 import bikesImg5 from "./bikes/bikesImg5.png";
+
+// algososh project
+import mainImg from "./algoshosh/main-page.png";
+import stringImg from "./algoshosh/string-page.png";
+import fibImg from "./algoshosh/fib-page.png";
+import sortImg from "./algoshosh/sort-page.png";
+import listImg from "./algoshosh/list-page.png";
+import fibPage from "./algoshosh/fib-page.png";
+import queuePage from "./algoshosh/queue-page.png";
 
 export const stellarBurgersImages = [
   sbImg1,
@@ -38,4 +45,14 @@ export const bikesImages = [
   bikesImg3,
   bikesImg4,
   bikesImg5,
+];
+
+export const algososhImages = [
+  mainImg,
+  stringImg,
+  fibImg,
+  sortImg,
+  listImg,
+  fibPage,
+  queuePage,
 ];
