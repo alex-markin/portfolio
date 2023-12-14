@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.50176c53.css",
-    "main.js": "/portfolio/static/js/main.45ef4a65.js",
-    "static/js/787.79c02c71.chunk.js": "/portfolio/static/js/787.79c02c71.chunk.js",
+    "main.css": "/portfolio/static/css/main.71fed6cb.css",
+    "main.js": "/portfolio/static/js/main.575ef9b6.js",
     "static/media/mestoImg2.png": "/portfolio/static/media/mestoImg2.9fa71b50ea9aaf2c99b6.png",
     "static/media/bikesImg1.png": "/portfolio/static/media/bikesImg1.7096f97f2324b9ac84e9.png",
     "static/media/bikesImg3.png": "/portfolio/static/media/bikesImg3.70c81e9ed3a45884e210.png",
@@ -11,6 +10,7 @@
     "static/media/mestoImg4.png": "/portfolio/static/media/mestoImg4.0d84e694b860e78674ac.png",
     "static/media/mestoImg3.png": "/portfolio/static/media/mestoImg3.cd0b687dcc8fb3050bcf.png",
     "static/media/bikesImg4.png": "/portfolio/static/media/bikesImg4.9e82618c0a5e761fe41c.png",
+    "static/media/main-page.png": "/portfolio/static/media/main-page.8926b60be21bd5e778ed.png",
     "static/media/sbImg1.png": "/portfolio/static/media/sbImg1.f9ee5ef44c30cc3e6e1a.png",
     "static/media/bikesImg5.png": "/portfolio/static/media/bikesImg5.c82f3d3d14d56c226ec7.png",
     "static/media/sbImg2.png": "/portfolio/static/media/sbImg2.183110d1ff0ec8b5e47f.png",
@@ -20,7 +20,9 @@
     "static/media/Inter-italic.var.woff2?v=3.19": "/portfolio/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
     "static/media/Inter-roman.var.woff2?v=3.19": "/portfolio/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
     "static/media/sbImg3.png": "/portfolio/static/media/sbImg3.7f4ffeb3ab155e2268df.png",
+    "static/media/list-page.png": "/portfolio/static/media/list-page.55e047a655692239146d.png",
     "static/media/sbImg4.png": "/portfolio/static/media/sbImg4.744f80766880b3944966.png",
+    "static/media/sort-page.png": "/portfolio/static/media/sort-page.4fe5523adcb500d7f55e.png",
     "static/media/Inter-SemiBoldItalic.woff?v=3.19": "/portfolio/static/media/Inter-SemiBoldItalic.463bdbfb28abad0fa6df.woff",
     "static/media/Inter-BoldItalic.woff?v=3.19": "/portfolio/static/media/Inter-BoldItalic.b376885042f6c961a541.woff",
     "static/media/Inter-MediumItalic.woff?v=3.19": "/portfolio/static/media/Inter-MediumItalic.3d0107dd43d0101274d3.woff",
@@ -28,8 +30,10 @@
     "static/media/Inter-LightItalic.woff?v=3.19": "/portfolio/static/media/Inter-LightItalic.ef9f65d91d2b0ba9b2e4.woff",
     "static/media/Inter-ExtraLightItalic.woff?v=3.19": "/portfolio/static/media/Inter-ExtraLightItalic.170dddfca278d3c2ad4a.woff",
     "static/media/photo.jpeg": "/portfolio/static/media/photo.9599d97d5aa76537992f.jpeg",
+    "static/media/string-page.png": "/portfolio/static/media/string-page.a553e4188aa40fe2d52b.png",
     "static/media/Inter-BlackItalic.woff?v=3.19": "/portfolio/static/media/Inter-BlackItalic.ca1e738e4f349f27514d.woff",
     "static/media/Inter-Italic.woff?v=3.19": "/portfolio/static/media/Inter-Italic.890025e726861dba417f.woff",
+    "static/media/queue-page.png": "/portfolio/static/media/queue-page.411bd50d3f830b905b74.png",
     "static/media/Inter-Bold.woff?v=3.19": "/portfolio/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
     "static/media/Inter-SemiBold.woff?v=3.19": "/portfolio/static/media/Inter-SemiBold.cca62d21c8c555c392e5.woff",
     "static/media/Inter-ExtraBold.woff?v=3.19": "/portfolio/static/media/Inter-ExtraBold.d0fa3bb2b7c9063dc594.woff",
@@ -37,6 +41,7 @@
     "static/media/Inter-ExtraLight.woff?v=3.19": "/portfolio/static/media/Inter-ExtraLight.c4248615291a9e8f1fb7.woff",
     "static/media/Inter-Light.woff?v=3.19": "/portfolio/static/media/Inter-Light.994e34451cc19ede31d3.woff",
     "static/media/Inter-Black.woff?v=3.19": "/portfolio/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/fib-page.png": "/portfolio/static/media/fib-page.a5438f838c236acc6441.png",
     "static/media/Inter-Regular.woff?v=3.19": "/portfolio/static/media/Inter-Regular.8c206db99195777c6769.woff",
     "static/media/Inter-MediumItalic.woff2?v=3.19": "/portfolio/static/media/Inter-MediumItalic.085cb93e613ba3d40d2b.woff2",
     "static/media/Inter-SemiBoldItalic.woff2?v=3.19": "/portfolio/static/media/Inter-SemiBoldItalic.d9467ee321a8f38aefff.woff2",
@@ -58,12 +63,11 @@
     "static/media/close-button.svg": "/portfolio/static/media/close-button.c4c517b0a1656e7eaaae.svg",
     "static/media/arrow-right.svg": "/portfolio/static/media/arrow-right.f4531088de9b162e1281.svg",
     "static/media/arrow-left.svg": "/portfolio/static/media/arrow-left.a2e49cd1f9028e354176.svg",
-    "main.50176c53.css.map": "/portfolio/static/css/main.50176c53.css.map",
-    "main.45ef4a65.js.map": "/portfolio/static/js/main.45ef4a65.js.map",
-    "787.79c02c71.chunk.js.map": "/portfolio/static/js/787.79c02c71.chunk.js.map"
+    "main.71fed6cb.css.map": "/portfolio/static/css/main.71fed6cb.css.map",
+    "main.575ef9b6.js.map": "/portfolio/static/js/main.575ef9b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.50176c53.css",
-    "static/js/main.45ef4a65.js"
+    "static/css/main.71fed6cb.css",
+    "static/js/main.575ef9b6.js"
   ]
 }
