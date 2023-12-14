@@ -82,8 +82,8 @@ export const algososhProject: Project = {
     "Cypress",
   ],
   images: algososhImages,
-  ghLink: "https://alex-markin.github.io/mbou_algososh/#/",
-  previewLink: "https://github.com/alex-markin/mbou_algososh",
+  ghLink: "https://github.com/alex-markin/mbou_algososh",
+  previewLink: "https://alex-markin.github.io/mbou_algososh/#/",
 };
 
 export const projects = [burgersProject, bikesProject, mestoProject, algososhProject];
