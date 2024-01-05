@@ -16,14 +16,24 @@ export default function About() {
         <h2 className={styles.stackheader}>My current stack</h2>
         <h3 className={styles.subheader}>Languages:</h3>
         <ul className={styles.list}>
-          <li className={styles.listItem}>JavaScript & TypeScript</li>
+          <li className={styles.listItem}>JavaScript, TypeScript</li>
           <li className={styles.listItem}>HTML & CSS</li>
+          <li className={styles.listItem}>Node.js</li>
         </ul>
 
-        <h3 className={styles.subheader}>Frameworks & Libraries:</h3>
+        <h3 className={styles.subheader}>Frameworks, Libraries:</h3>
         <ul className={styles.list}>
           <li className={styles.listItem}>React & Redux toolkit</li>
           <li className={styles.listItem}>React Router, DnD</li>
+          <li className={styles.listItem}>Express</li>
+        </ul>
+
+        <h3 className={styles.subheader}>Tools and utils: </h3>
+        <ul className={styles.list}>
+          <li className={styles.listItem}>Jest & Cypress</li>
+          <li className={styles.listItem}>MongoDB, Mongoose, Postman</li>
+          <li className={styles.listItem}>ChatGPT & Copilot</li>
+          <li className={styles.listItem}>Figma</li>
         </ul>
       </div>
 
