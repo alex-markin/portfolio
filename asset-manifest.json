@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.71fed6cb.css",
-    "main.js": "/portfolio/static/js/main.64c74ebb.js",
+    "main.css": "/portfolio/static/css/main.1cb267c4.css",
+    "main.js": "/portfolio/static/js/main.a3f67840.js",
     "static/media/mestoImg2.png": "/portfolio/static/media/mestoImg2.9fa71b50ea9aaf2c99b6.png",
     "static/media/bikesImg1.png": "/portfolio/static/media/bikesImg1.7096f97f2324b9ac84e9.png",
+    "static/media/KPDImg5.png": "/portfolio/static/media/KPDImg5.df334ffda7c4af0d1192.png",
     "static/media/bikesImg3.png": "/portfolio/static/media/bikesImg3.70c81e9ed3a45884e210.png",
     "static/media/mestoImg1.png": "/portfolio/static/media/mestoImg1.da374af4334d1f7db8cb.png",
     "static/media/bikesImg2.png": "/portfolio/static/media/bikesImg2.c8ac3e90b3fa6ef8f83f.png",
+    "static/media/KPDImg3.png": "/portfolio/static/media/KPDImg3.8963aec453c9ccb5141f.png",
     "static/media/mestoImg4.png": "/portfolio/static/media/mestoImg4.0d84e694b860e78674ac.png",
     "static/media/mestoImg3.png": "/portfolio/static/media/mestoImg3.cd0b687dcc8fb3050bcf.png",
     "static/media/bikesImg4.png": "/portfolio/static/media/bikesImg4.9e82618c0a5e761fe41c.png",
+    "static/media/KPDImg4.png": "/portfolio/static/media/KPDImg4.5702bc770888fadba120.png",
     "static/media/main-page.png": "/portfolio/static/media/main-page.8926b60be21bd5e778ed.png",
     "static/media/sbImg1.png": "/portfolio/static/media/sbImg1.f9ee5ef44c30cc3e6e1a.png",
     "static/media/bikesImg5.png": "/portfolio/static/media/bikesImg5.c82f3d3d14d56c226ec7.png",
@@ -21,7 +24,9 @@
     "static/media/Inter-roman.var.woff2?v=3.19": "/portfolio/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
     "static/media/sbImg3.png": "/portfolio/static/media/sbImg3.7f4ffeb3ab155e2268df.png",
     "static/media/list-page.png": "/portfolio/static/media/list-page.55e047a655692239146d.png",
+    "static/media/KPDImg2.png": "/portfolio/static/media/KPDImg2.25c6b3b181d1ca2ade9c.png",
     "static/media/sbImg4.png": "/portfolio/static/media/sbImg4.744f80766880b3944966.png",
+    "static/media/KPDImg1.png": "/portfolio/static/media/KPDImg1.d6a02d4039a5f4041fd1.png",
     "static/media/sort-page.png": "/portfolio/static/media/sort-page.4fe5523adcb500d7f55e.png",
     "static/media/Inter-SemiBoldItalic.woff?v=3.19": "/portfolio/static/media/Inter-SemiBoldItalic.463bdbfb28abad0fa6df.woff",
     "static/media/Inter-BoldItalic.woff?v=3.19": "/portfolio/static/media/Inter-BoldItalic.b376885042f6c961a541.woff",
@@ -63,11 +68,11 @@
     "static/media/close-button.svg": "/portfolio/static/media/close-button.c4c517b0a1656e7eaaae.svg",
     "static/media/arrow-right.svg": "/portfolio/static/media/arrow-right.f4531088de9b162e1281.svg",
     "static/media/arrow-left.svg": "/portfolio/static/media/arrow-left.a2e49cd1f9028e354176.svg",
-    "main.71fed6cb.css.map": "/portfolio/static/css/main.71fed6cb.css.map",
-    "main.64c74ebb.js.map": "/portfolio/static/js/main.64c74ebb.js.map"
+    "main.1cb267c4.css.map": "/portfolio/static/css/main.1cb267c4.css.map",
+    "main.a3f67840.js.map": "/portfolio/static/js/main.a3f67840.js.map"
   },
   "entrypoints": [
-    "static/css/main.71fed6cb.css",
-    "static/js/main.64c74ebb.js"
+    "static/css/main.1cb267c4.css",
+    "static/js/main.a3f67840.js"
   ]
 }
