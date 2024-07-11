@@ -39,6 +39,13 @@
   gap: 20px;
 }
 
+.aboutStackContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 35px;
+}
+
 .aboutText {
   font-size: 18px;
   font-weight: 400;

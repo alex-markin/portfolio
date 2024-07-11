@@ -22,7 +22,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className={styles.aboutTextContainer}>
+      <div className={styles.aboutStackContainer}>
         <h2 className={styles.stackheader}>My current stack</h2>
         <div className={styles.stackContainer}>
           <div className={styles.stackBlock}>
@@ -55,7 +55,7 @@ export default function About() {
             <li className={styles.listItem}>Figma</li>
           </ul>
           </div>
-          
+
         </div>
       </div>
     </section>
