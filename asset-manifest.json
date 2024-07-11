@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1cb267c4.css",
-    "main.js": "/portfolio/static/js/main.a3f67840.js",
+    "main.css": "/portfolio/static/css/main.dc60b098.css",
+    "main.js": "/portfolio/static/js/main.6e4eba8f.js",
     "static/media/mestoImg2.png": "/portfolio/static/media/mestoImg2.9fa71b50ea9aaf2c99b6.png",
     "static/media/bikesImg1.png": "/portfolio/static/media/bikesImg1.7096f97f2324b9ac84e9.png",
     "static/media/KPDImg5.png": "/portfolio/static/media/KPDImg5.df334ffda7c4af0d1192.png",
@@ -68,11 +68,11 @@
     "static/media/close-button.svg": "/portfolio/static/media/close-button.c4c517b0a1656e7eaaae.svg",
     "static/media/arrow-right.svg": "/portfolio/static/media/arrow-right.f4531088de9b162e1281.svg",
     "static/media/arrow-left.svg": "/portfolio/static/media/arrow-left.a2e49cd1f9028e354176.svg",
-    "main.1cb267c4.css.map": "/portfolio/static/css/main.1cb267c4.css.map",
-    "main.a3f67840.js.map": "/portfolio/static/js/main.a3f67840.js.map"
+    "main.dc60b098.css.map": "/portfolio/static/css/main.dc60b098.css.map",
+    "main.6e4eba8f.js.map": "/portfolio/static/js/main.6e4eba8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cb267c4.css",
-    "static/js/main.a3f67840.js"
+    "static/css/main.dc60b098.css",
+    "static/js/main.6e4eba8f.js"
   ]
 }
